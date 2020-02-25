@@ -13,5 +13,14 @@ $(document).ready(function() {
       $(".nav").removeClass("sticky");
     }
   });
-});
 
+  $(".bxslider").bxSlider({
+    mode: "horizontal",
+    moveSlides: 1,
+    slideMargin: 40,
+    infinitiLoop: true,
+    minSlides: 1,
+    maxSlides: 2,
+    speed: 1200
+  });
+});
