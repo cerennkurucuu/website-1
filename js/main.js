@@ -20,7 +20,17 @@ $(document).ready(function() {
     slideMargin: 40,
     infinitiLoop: true,
     minSlides: 1,
-    maxSlides: 2,
+    maxSlides: 1,
     speed: 1200
   });
+  $("#work").magnificPopup({
+    delegate:'a',
+    type:'image',
+    gallery:{
+      enabled:true
+    }
+  });
+
+
+
 });
